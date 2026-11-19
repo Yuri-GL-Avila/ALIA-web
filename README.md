@@ -114,7 +114,7 @@ alia-web/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/alia-web.git
+git clone https://github.com/Yuri-GL-Avila/ALIA-web.git
 ```
 
 Acesse a pasta:
@@ -204,8 +204,8 @@ A integração implementada demonstra o registro e o acompanhamento de ocorrênc
 
 ## Integrantes
 
-- Yuri Guerreiro Lopes de Avila
-- [Nome da segunda integrante]
+- Ana Beatriz Ferreira de Souza - RM566313
+- Yuri Guerreiro Lopes de Avila - RM563361
 
 ## Considerações finais
 
