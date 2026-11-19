@@ -1,0 +1,398 @@
+.hero {
+    background: linear-gradient(120deg, #fff 45%, #f9f0f4);
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.eyebrow {
+    display: inline-block;
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 5vw, 62px);
+    line-height: 1.12;
+    letter-spacing: -2px;
+    margin: 0 0 25px;
+}
+
+.hero h1 span {
+    color: var(--primary);
+}
+
+.hero p,
+.info-section p,
+.awareness-section p,
+.support-section p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 32px;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #590026;
+}
+
+.btn-outline {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-light {
+    background: white;
+    color: var(--primary);
+}
+
+.hero-visual {
+    min-height: 350px;
+    border-radius: 28px;
+    background: linear-gradient(145deg, #7a0034, #a51d58);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 25px 50px #7a003426;
+}
+
+.hero-symbol {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #ffffff55;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 25px;
+}
+
+.hero-visual-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.hero-visual-text strong {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.hero-visual-text span {
+    color: #ffe3ee;
+}
+
+/* CENTRAL ALIA */
+
+.central-section {
+    background: linear-gradient(120deg, #65002b, #8b1647);
+    color: white;
+    padding: 100px 0;
+}
+
+.central-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.eyebrow-light {
+    color: #ffe1ed;
+}
+
+.central-text h2 {
+    font-size: clamp(38px, 4vw, 56px);
+    margin: 0 0 22px;
+}
+
+.central-text p {
+    line-height: 1.8;
+    color: #f7e8ee;
+    font-size: 16px;
+}
+
+.central-text .btn {
+    margin: 25px 0;
+}
+
+.central-text small {
+    display: block;
+    color: #f5d9e5;
+    line-height: 1.6;
+}
+
+.central-preview {
+    background: white;
+    color: var(--dark);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 25px 55px #22000f55;
+}
+
+.preview-header,
+.preview-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.preview-header {
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.preview-title {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.demo-badge {
+    background: #f9e4ed;
+    color: #75002f;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 7px 10px;
+    border-radius: 6px;
+}
+
+.preview-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.preview-card {
+    background: var(--soft);
+    padding: 24px 18px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--primary);
+}
+
+.preview-card strong {
+    font-size: 15px;
+}
+
+.preview-card span {
+    color: #555;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.preview-footer {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #555;
+    font-size: 13px;
+}
+
+/* SEÇÕES INFORMATIVAS */
+
+.info-section,
+.support-section {
+    padding: 100px 0;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.section-heading h2,
+.awareness-section h2,
+.support-section h2 {
+    font-size: clamp(30px, 3.5vw, 42px);
+    margin: 0 0 20px;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.info-card {
+    border: 1px solid #eadde3;
+    border-radius: 18px;
+    padding: 35px 28px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px #7a003412;
+}
+
+.card-icon {
+    width: 65px;
+    height: 65px;
+    display: grid;
+    place-items: center;
+    background: var(--soft);
+    color: var(--primary);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    color: var(--secondary);
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.info-card h3 {
+    font-size: 21px;
+    margin: 12px 0;
+}
+
+.info-card p {
+    font-size: 15px;
+}
+
+.awareness-section {
+    background: var(--soft);
+    padding: 95px 0;
+}
+
+.awareness-layout {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.awareness-icon {
+    min-height: 260px;
+    background: #f0dce5;
+    color: var(--primary);
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.text-link {
+    color: var(--primary);
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.support-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.support-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.support-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: var(--soft);
+    padding: 22px;
+    border-radius: 12px;
+    color: var(--primary);
+}
+
+.support-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.support-card span {
+    color: #555;
+    font-size: 14px;
+}
+
+@media (max-width: 850px) {
+
+    .hero,
+    .central-section,
+    .info-section,
+    .awareness-section,
+    .support-section {
+        padding: 65px 0;
+    }
+
+    .hero-content,
+    .central-layout,
+    .awareness-layout,
+    .support-layout {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .hero-visual {
+        min-height: 270px;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .preview-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .central-preview {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        letter-spacing: -1px;
+    }
+}
